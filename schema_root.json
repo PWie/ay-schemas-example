@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/PWie/ay-schemas-example/main/schema_root.json",
+  "title": "Root schema test",
+  "allOf": [ { "$ref": "http://json-schema.org/draft-07/schema#" } ],
+  "properties": {
+    "properties": {
+      "rootDefined": {
+        "type": "string"
+      },
+      "additionalProperties": { "$ref": "https://raw.githubusercontent.com/PWie/ay-schemas-example/main/schema_child.json" },
+      "minProperties": 1
+    },
+    "type": {
+      "const": "object"
+    }
+  },
+  "required": ["properties", "type"]
+}
