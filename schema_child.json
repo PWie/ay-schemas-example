@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "child TBD",
+  "title": "Child prop schema",
+  "type": "object",
+  "properties": {
+    "test1": {
+      "type": "string",
+      "description": "Firts test value"
+    },
+    "test2": {
+      "type": "number",
+      "min": 5
+    }
+  },
+  "required": ["test1"],
+  "additionalProperties": false
+}
