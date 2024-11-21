@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "child TBD",
+  "$id": "https://raw.githubusercontent.com/PWie/ay-schemas-example/main/schema_child.json",
   "title": "Child prop schema",
   "type": "object",
   "properties": {
